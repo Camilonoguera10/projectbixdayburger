@@ -6,6 +6,7 @@ import Menu from "./components/menu/Menu";
 import Booking from "./components/booking/Booking";
 import Browser from "./components/browser/Browser";
 
+
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
         <Route path="/Menu" element={<Menu />}></Route>
         <Route path="/Booking" element={<Booking />}></Route>
       </Routes>
+      
     </div>
   );
 }
